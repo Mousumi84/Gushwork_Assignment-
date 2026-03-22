@@ -3,7 +3,6 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-
   /* for smooth transation */
   transition:
     width 0.3s ease,
@@ -19,7 +18,6 @@ body {
   overflow-x: clip;
   background-color: #f6f7f7;
 }
-
 
 /* Navbar */
 .navbar {
@@ -54,7 +52,6 @@ body {
     width: 100%;
     height: 44px;
 
-
     button {
       color: #333;
       outline: none;
@@ -82,7 +79,6 @@ body {
       background: #2b3990;
       color: white;
     }
-
   }
 
   .menu-toggle {
@@ -105,13 +101,6 @@ section {
 
 /* Home page  Premium HDPE Pipes & Coils for Modern Infrastructure */
 #premiumhdpepipes {
-  /* padding: 100px;
-
-  .container {
-    max-width: 1240px;
-    width: 100%;
-    margin: 0 auto;
-  } */
 
   .tab_navigation {
     display: flex;
@@ -136,9 +125,7 @@ section {
     gap: 20px;
     /* max-width: 570px; */
     width: 100%;
-
-    position: relative; 
-
+    position: relative;
 
     .img-container {
       position: relative;
@@ -157,7 +144,7 @@ section {
         width: 120px;
         height: 120px;
         border: 1px solid #ccc;
-        background: rgba(255,255,255,0.2);
+        background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(2px);
         display: none;
         cursor: crosshair;
@@ -166,23 +153,20 @@ section {
 
       .zoom-preview {
         position: absolute;
-        left: 105%; 
+        left: 105%;
         bottom: 0;
-
         width: 300px;
         height: 300px;
-      
         border-radius: 12px;
         background-repeat: no-repeat;
         background-size: 200%;
         opacity: 0;
         visibility: hidden;
-      
-        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         border: 2px solid #909090;
         z-index: 20;
       }
-      
+
       .arrow {
         position: absolute;
         top: 50%;
@@ -208,7 +192,6 @@ section {
       display: flex;
       gap: 20px;
 
-
       span {
         height: 80px;
         width: 80px;
@@ -219,22 +202,19 @@ section {
       }
     }
 
-    .boxes::after {  /* create an invisible layer */
-      content: ""; 
+    .boxes::after {
+      /* create an invisible layer */
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
-      width: 100px; 
+      width: 100px;
       height: 100%;
       pointer-events: none;
-    
-      background: linear-gradient(
-        to right,
-        rgba(255,255,255,0) 0%,
-        #f6f7f7 100%
-      );
+      background: linear-gradient(to right,
+          rgba(255, 255, 255, 0) 0%,
+          #f6f7f7 100%);
     }
-
   }
 
   /* Content */
@@ -288,7 +268,6 @@ section {
         gap: 16px;
         align-items: center;
 
-
         .icon {
           background-color: blue;
           color: white;
@@ -311,7 +290,6 @@ section {
       gap: 16px;
       box-sizing: border-box;
 
-
       .label {
         font-size: 14px;
         color: #666;
@@ -328,7 +306,6 @@ section {
         border-radius: 6px;
         font-weight: 500;
         font-size: medium;
-
       }
 
       .cert {
@@ -351,9 +328,7 @@ section {
         padding: 16px 24px;
         font-size: 16px;
         font-weight: 500;
-
       }
-
 
       .primary {
         background-color: #2b3990;
@@ -495,7 +470,6 @@ section {
       align-content: center;
     }
   }
-
 }
 
 /* Home page  Built to Last. Engineered to Perform. */
@@ -593,7 +567,6 @@ section {
     cursor: pointer;
     transition: 0.3s;
   }
-
 }
 
 /* Home page  Frequently Asked Questions */
@@ -633,14 +606,12 @@ section {
     overflow: hidden;
   }
 
-
   /* Question */
   .faq-question {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     cursor: pointer;
-
 
     p {
       font-size: 16px;
@@ -652,7 +623,6 @@ section {
       background-color: #f1f2f3;
       border-radius: 50%;
     }
-
   }
 
   /* Answer */
@@ -685,7 +655,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 
     .cta-text {
       display: flex;
@@ -735,7 +704,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: 56px;
-
 
   #versatileapplicationsacross-box {
     display: flex;
@@ -870,7 +838,6 @@ section {
     gap: 56px;
   }
 
-
   /* Header */
   .header {
     width: 100%;
@@ -936,8 +903,6 @@ section {
       }
     }
 
-
-
     .detail-box {
       display: flex;
       flex-direction: row;
@@ -954,7 +919,6 @@ section {
         align-content: space-between;
         justify-content: space-between;
 
-
         p {
           color: #4d545c;
           font-weight: 400;
@@ -962,7 +926,6 @@ section {
           font-size: 18px;
           line-height: 160%;
           letter-spacing: -0.6%;
-
         }
 
         ul {
@@ -972,7 +935,6 @@ section {
           flex-direction: column;
           gap: 12px;
           list-style: none;
-
         }
 
         li {
@@ -985,7 +947,6 @@ section {
           font-size: 16px;
           font-weight: 500;
 
-
           .icon {
             background-color: blue;
             color: white;
@@ -993,7 +954,6 @@ section {
             font-size: 10px;
             vertical-align: middle;
           }
-
         }
       }
 
@@ -1010,14 +970,12 @@ section {
           border-radius: 1px;
           border-radius: 16px;
 
-
           img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             object-position: center;
           }
-
 
           .arrow {
             position: absolute;
@@ -1028,11 +986,9 @@ section {
             cursor: pointer;
             border-radius: 50%;
           }
-
           .left {
             left: 15px;
           }
-
           .right {
             right: 15px;
           }
@@ -1048,11 +1004,9 @@ section {
           padding: 8px 12px;
           cursor: pointer;
         }
-
         .prev {
           left: 10px;
         }
-
         .next {
           right: 10px;
         }
@@ -1102,12 +1056,9 @@ section {
     }
   }
 }
-
-
 /* Carousel */
 .carousel-wrapper {
   position: relative;
-
   .cards {
     display: flex;
     gap: 20px;
@@ -1135,15 +1086,12 @@ section {
     padding: 32px;
     box-shadow: 0px 2px 4px 0px #1B1C1D0A;
 
-
-
     .quotes-details {
       width: 356;
       height: 226;
       display: flex;
       flex-direction: column;
       gap: 32px;
-
 
       .quote {
         width: 32px;
@@ -1152,7 +1100,6 @@ section {
           width: 100%;
         }
       }
-
 
       .text {
         display: flex;
@@ -1200,12 +1147,9 @@ section {
           font-weight: 400;
           font-size: 12px;
           color: #535A61;
-
         }
-
       }
     }
-
   }
 }
 
@@ -1283,7 +1227,6 @@ section {
     }
 
     .lower {
-
       img {
         width: 100%;
         border-radius: 10px;
@@ -1311,7 +1254,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 
     .cta-text {
       display: flex;
@@ -1400,7 +1342,6 @@ section {
     font-weight: 500;
     color: #0d0d0d;
 
-
     .resource-item {
       display: flex;
       flex-direction: row;
@@ -1424,7 +1365,6 @@ section {
 /* Home page  Ready to Transform Your Textile Manufacturing? */
 #readytotransform {
   #readytotransform-box {
-
     width: 100%;
     margin: auto;
     background: #2e3b7d;
@@ -1455,7 +1395,6 @@ section {
       flex-direction: column;
       gap: 16px;
 
-
       div {
         color: #ffffff;
         font-size: 48px;
@@ -1466,7 +1405,6 @@ section {
         font-size: 18px;
         font-weight: 400;
         color: #FFFFFFCC;
-
       }
     }
 
@@ -1474,7 +1412,6 @@ section {
       border-top: #FFFFFF33 1.5px solid;
       padding: 20px;
     }
-
   }
 
   /* FORM */
@@ -1532,8 +1469,6 @@ section {
   background: linear-gradient(0deg, #F1F2F3, #F1F2F3),
     linear-gradient(180deg, #FFFFFF, #DFE4FF);
 
-
-
   /* TOP BANNER */
   .footer-banner {
     max-width: 1100px;
@@ -1548,12 +1483,10 @@ section {
     flex-wrap: wrap;
     gap: 15px;
 
-
     .logo {
       font-weight: bold;
       font-size: 18px;
     }
-
     p {
       text-align: right;
     }
@@ -1567,7 +1500,6 @@ section {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding-bottom: 30px;
-
 
     /* Columns */
     .col {
@@ -1589,7 +1521,6 @@ section {
       ul {
         list-style: none;
       }
-
 
       /* SOCIAL */
       .socials {
@@ -1646,7 +1577,6 @@ section {
   align-items: center;
   z-index: 1000;
 
-
   /* Show modal */
   /* .show {
     display: flex;
@@ -1663,7 +1593,6 @@ section {
     flex-direction: column;
     margin: 0%;
     padding: 0%;
-
 
     /* Header */
     .modal-header {
@@ -1693,14 +1622,12 @@ section {
     }
 
     .modal-body {
-
       label {
         color: #4D545C;
         font-size: 12px;
         font-weight: 500;
 
       }
-
       input {
         padding: 10px;
         border-radius: 6px;
@@ -1723,7 +1650,6 @@ section {
       border-bottom-right-radius: 10px;
       border-top: 1px solid #E5E7EB;
     }
-
     .download-btn {
       padding: 10px 16px;
       background: #2b3990;
@@ -1738,8 +1664,6 @@ section {
     }
   }
 }
-
-
 /* --------------------------------------------------------------------------------------------- */
 
 /* Responsive */
@@ -1749,13 +1673,7 @@ section {
     display: none;
   }
 }
-
-
-
-
 /* -------------------------------------------------------------------------------------------- */
-
-
 @media (max-width: 1200px) {
   section {
     padding: 80px;
@@ -1764,33 +1682,25 @@ section {
       width: 1040px;
       margin: 0 auto;
     }
-
   }
-
   #premiumhdpepipes {
     /* padding: 80px;
-
     .container {
       width: 1040px;
       margin: 0 auto;
     } */
-
-
     .slider,
     .hero-content {
       width: 490px;
     }
-
     .slider {
       img {
         height: 490px;
       }
     }
-
     .cert {
       display: block;
     }
-
     .social-icons {
       justify-content: space-between;
 
@@ -1798,61 +1708,40 @@ section {
         display: none;
       }
     }
-
   }
-
-
 }
-
-
-
-
-
 /* ----------------------------------------------------------------------------*/
-
-
 @media (max-width: 1080px) {
   section {
     padding: 80px 60px;
-
 
     .container {
       width: 960px;
       margin: 0 auto;
     }
   }
-
   #premiumhdpepipes {
-
     .slider,
     .hero-content {
       width: 452px;
-
       .price-card {
         width: 100%;
       }
     }
-
     .slider img {
       height: 452px;
     }
   }
 }
-
-
-
 /* ------------------------------------------------------------------------------------ */
-
 @media (max-width: 800px) {
   section {
     padding: 80px 48px;
-
     .container {
       width: 704px;
       margin: 0 auto;
     }
   }
-
   #premiumhdpepipes {
     .header {
 
@@ -1865,18 +1754,10 @@ section {
       }
     }
 
-    /* padding: 80px 48px;
-
-    .container {
-      width: 704px;
-      margin: 0 auto;
-    } */
-
     .hero-grid {
       flex-direction: column-reverse;
       gap: 56px;
     }
-
     .slider,
     .hero-content {
       width: 100%;
@@ -1890,19 +1771,15 @@ section {
     .header div {
       font-size: 36px;
     }
-
     .cta {
       flex-direction: column;
     }
-
     .cta .btn {
       width: 100%;
     }
-
     .badges {
       flex-wrap: wrap;
     }
-
     .social-icons {
       justify-content: space-between;
 
@@ -1957,11 +1834,9 @@ section {
 
     #frequentlyaskedquestions-box {
       .header {
-
         div {
           width: 700px;
         }
-
         p {
           width: 700px;
         }
@@ -2022,22 +1897,17 @@ section {
   }
 
   #advancedhdpepipemanufacturing {
-
     #advancedhdpepipemanufacturing-box {
-
       .header {
-
         div {
           width: 700px;
         }
-
         p {
           width: 700px;
         }
       }
 
       .card {
-
         .tab {
           display: none;
         }
@@ -2058,9 +1928,7 @@ section {
             padding: 8px 16px;
             font-weight: 500;
             font-size: 14px;
-
           }
-
           .text {
             width: 100%;
           }
@@ -2072,8 +1940,6 @@ section {
               display: none;
             }
           }
-
-
           .mobile-nav {
             display: flex;
             justify-content: space-between;
@@ -2081,9 +1947,6 @@ section {
             width: 100%;
           }
         }
-
-
-
       }
     }
   }
@@ -2107,14 +1970,11 @@ section {
   }
 
   #completepipingsolutionsportfolio {
-
     #completepipingsolutionsportfolio-box {
       .header {
-
         div {
           width: 700px;
         }
-
         p {
           width: 700px;
         }
@@ -2129,7 +1989,6 @@ section {
 
       .card {
         width: 100%;
-
         .upper {
           gap: 16px;
           height: fit-content;
@@ -2147,10 +2006,6 @@ section {
           flex-direction: column;
           width: 60%;
           flex-wrap: wrap;
-        }
-
-        .cta-btn {
-          /* width: 30%;  */
         }
       }
     }
@@ -2173,12 +2028,10 @@ section {
 
   #readytotransform {
     #readytotransform-box {
-
       .cta-container {
         flex-direction: column;
         gap: 64px;
       }
-
       /* LEFT */
       .cta-text {
         width: 100%;
@@ -2186,13 +2039,10 @@ section {
         .head {
           width: 100%;
         }
-
       }
-
       .form-box {
         width: 100%;
       }
-
     }
   }
 
@@ -2200,9 +2050,6 @@ section {
     padding: 40px 20px 0;
     background: linear-gradient(0deg, #F1F2F3, #F1F2F3),
       linear-gradient(180deg, #FFFFFF, #DFE4FF);
-
-
-
     /* TOP BANNER */
     .footer-banner {
       max-width: 1100px;
@@ -2216,7 +2063,6 @@ section {
       margin-bottom: 40px;
       flex-wrap: wrap;
       gap: 15px;
-
 
       .logo {
         font-weight: bold;
@@ -2254,28 +2100,16 @@ section {
 @media (max-width: 360px) {
   section {
     padding: 48px 16px;
-
-
     .container {
       width: 328px;
       margin: 0 auto;
     }
   }
-
   #premiumhdpepipes {
-    /* padding: 48px 16px;
-
-
-    .container {
-      width: 328px;
-      margin: 0 auto;
-    } */
-
     .hero-grid {
       flex-direction: column-reverse;
       /* slider below */
     }
-
     .slider,
     .hero-content {
       width: 100%;
@@ -2286,25 +2120,20 @@ section {
       font-size: 24px;
       line-height: 1.3;
     }
-
     .badges {
       flex-wrap: wrap;
     }
-
     .price-card {
       padding: 12px;
     }
-
     .cta {
       flex-direction: column;
       gap: 10px;
     }
-
     .cta .btn {
       width: 100%;
       padding: 14px;
     }
-
     .social-icons {
       justify-content: space-between;
 
@@ -2315,9 +2144,7 @@ section {
   }
 
   #technicalspecifications {
-
     #technicalspecifications-box {
-
       .header {
         width: 90%;
       }
@@ -2325,7 +2152,6 @@ section {
   }
 
   #builttolast {
-
     #builttolast-box {
       .card {
         flex-direction: column;
